@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException, NoSuchAlgorithmException {
         GenKeysElGamal keyPair = new GenKeysElGamal(1024);
 
-        String a = Fichier.getContentFichier("/Users/nael/Desktop/CryptoAsymetrique/exemples/text2.txt");
+        String a = Fichier.getContentFichier("/Users/nael/Desktop/cryptoAsym/exemples/text2.txt");
         // remplacer [/Users/nael/Desktop] par votre chemin absolu inhérent à votre ordinateur
 
         byte[] By = Fichier.stringToBytesArray(a);
