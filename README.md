@@ -9,7 +9,7 @@ Pour tester le projet, on a besoin de lancer trois classes Main :
 - com.example.ElGamal.Main [El Gamal : classe pour tester generation de clefs, chiffrement/dechiffrement, signature]
 - com.example.Performance.Main [classe pour comparer le temps d'execution de la génération des clefs selon le paramètre de sécurité]
   
-Cette commande permet d'executer la classe Main situé dans pom.xml.
+Cette commande permet d'executer la classe Main située dans le fichier pom.xml.
 Par defaut, il s'agit de la classe Main du package Performance. 
 
 ``` mvn clean compile exec:java ```
