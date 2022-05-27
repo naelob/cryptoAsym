@@ -7,8 +7,9 @@ import java.security.NoSuchAlgorithmException;
 public class Main {
     
     public static void main(String[] args) throws FileNotFoundException,NoSuchAlgorithmException{
-        GenKeysRSA keyPair = new GenKeysRSA(1024);
+        GenKeysRSA keyPair = new GenKeysRSA(1024); // ne pas hesiter 
         String a = Fichier.getContentFichier("/Users/nael/Desktop/CryptoAsymetrique/exemples/text1.txt");
+        // remplacer [/Users/nael/Desktop] par votre chemin absolu inhérent à votre ordinateur
         byte[] By = Fichier.stringToBytesArray(a);
         String s = new String(By);
         BigInteger mesg = new BigInteger(By);

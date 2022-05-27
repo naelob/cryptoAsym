@@ -11,6 +11,8 @@ public class Main {
         GenKeysElGamal keyPair = new GenKeysElGamal(1024);
 
         String a = Fichier.getContentFichier("/Users/nael/Desktop/CryptoAsymetrique/exemples/text2.txt");
+        // remplacer [/Users/nael/Desktop] par votre chemin absolu inhérent à votre ordinateur
+
         byte[] By = Fichier.stringToBytesArray(a);
         //String s = new String(By);
         BigInteger mesg = new BigInteger(By);
